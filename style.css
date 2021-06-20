@@ -1,0 +1,38 @@
+.clock {
+    position: relative;
+    background-color: orange;
+    border-radius: 50%;
+}
+
+.clock-num {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.clock-center {
+    position: absolute;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.hand-hour {
+    position: absolute;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.hand-min {
+    position: absolute;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.hand-sec {
+    position: absolute;
+    border-radius: 10px;
+    background-color: black;
+}
